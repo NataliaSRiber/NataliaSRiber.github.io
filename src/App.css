@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color:#F6DCCA;
+  /* background-color:#5C4D7D; */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #9D6A89;
+  display: flex;
+  /* background-color: #B100E8; */
+}
+.nav-header {
+  align-items: center;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: space-around;
+  padding: 30px;
+  width: 100%;
+}
+
+.nav-link {
+  color: #F6DCCA;
+  text-decoration: none;
+  text-decoration-thickness: initial;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.profile-img {
+  border: 2px solid  #A8B4A5;
+  border-radius: 100%;
+}
+
+.about-me-father{
+  align-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+}
+
+.my-name{
+  color: #725D68;
+  font-size: 55px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.par {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #9D6A89;
+  /* background-color: #A8B4A5; */
+  bottom: 0;
+  display: flex;
+  font-size: 10px;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  margin: 0, 20px;
+  position: fixed;
+  width: 100%;
+  height:65px;
 }
 
-.App-link {
-  color: #61dafb;
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 5px, 25px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  background-color: #A8B4A5;
+  align-content: center;
 }
